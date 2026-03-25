@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, 'Arial', sans-serif;
+}
+
+body {
+    background-color: #e6ebec;
+}
+
+header {
+    text-align: center;
+    margin: 2rem;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1.4rem;
+    box-shadow: 0 0 10px #c5c5c5;
+}
+
+input {
+    padding: 10px;
+    border: 2px solid #c09ef5;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+button {
+    padding: 10px;
+    background-color: #c09ef5;
+    border: 2px solid #c09ef5;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
