@@ -5,10 +5,13 @@ function añadirTarea() {
         salidaTarea.innerHTML += `
         <div class="tareas">
         ${inputTarea.value}
-        <button>X</button>
+        <button onclick="eliminarTarea()">X</button>
         </div>
         `
 
         inputTarea.value = ""
     }
+}
+
+function eliminarTarea() {
 }
