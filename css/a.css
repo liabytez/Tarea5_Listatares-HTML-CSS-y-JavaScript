@@ -32,7 +32,7 @@ input {
     font-size: 14px;
 }
 
-button {
+.añadir {
     padding: 10px;
     background-color: #c09ef5;
     border: 2px solid #c09ef5;
@@ -40,4 +40,25 @@ button {
     border-radius: 8px;
     font-size: 14px;
     font-weight: bold;
+}
+
+.tareas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e9e9e9;
+    margin-top: 1rem;
+    padding: 10px;
+    border-radius: 8px;
+
+    button {
+        padding: 4px;
+        width: 2rem;
+        background-color: #ff8888;
+        border: 2px solid #ff8888;
+        color: #fff;
+        border-radius: 8px;
+        font-weight: bold;
+    }
+
 }
